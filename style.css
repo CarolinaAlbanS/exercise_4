@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 80%;
+}
+.header{
+    height: 180px;
+    display: flex;
+    flex-direction: row-reverse
+}
+.buscar{
+    margin: 25px;
+    padding: 10px;
+}
+.boton{
+    margin: 25px;
+    padding: 10px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 20px; 
+}
+.logo{
+    margin: 0px;
+}
+.titular{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+h1{
+    margin: 0px;
+    padding: 10px;
+    font-size: 45px;
+}
+.desplegable{
+    display: flex;
+    flex-direction: row-reverse;
+    border: none;
+}
+.primeraFila{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-grow: initial;
+    text-align: center;
+    margin-top: 20px;
+}
+.descuentos{
+    text-align: center;
+    font-style: none;
+    margin-top: 80px;
+}
+.noNegrita{
+    font-size: large;
+    font-size: 36px;
+}
+.emailFinal{
+    margin: 25px;
+}
+.telefono{
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+}
+.contacto{
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px 5px rgb(212, 212, 212);
+    
+}
+.telefonoFinal{
+    display: flex;
+    margin-top: 10px;
+}
+.movil{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.listaFinal{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-left: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+li{
+    margin: 20px;
+    margin-left: 0px;
+}
+a{
+    text-decoration: none;
+    color: black; 
+}
+.columana{
+    
+
+}
+.footerFinal{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    
+}
